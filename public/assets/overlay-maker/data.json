@@ -1,0 +1,224 @@
+{
+	"teams": [
+		{
+			"short": "ATL",
+			"name": "Atlanta Pandas"
+		},
+		{
+			"short": "BAL",
+			"name": "Baltimore Kraken"
+		},
+		{
+			"short": "BUF",
+			"name": "Buffalo Bolts"
+		},
+		{
+			"short": "CAR",
+			"name": "Carolina Reapers"
+		},
+		{
+			"short": "CHI",
+			"name": "Chicago Syndicate"
+		},
+		{
+			"short": "CLE",
+			"name": "Cleveland Cards"
+		},
+		{
+			"short": "DAL",
+			"name": "Dallas Vanguard"
+		},
+		{
+			"short": "DEN",
+			"name": "Denver Scream"
+		},
+		{
+			"short": "DET",
+			"name": "Detroit Wolfpack"
+		},
+		{
+			"short": "KCC",
+			"name": "Kansas City Carnage"
+		},
+		{
+			"short": "LAG",
+			"name": "Los Angeles Griffins"
+		},
+		{
+			"short": "LVT",
+			"name": "Las Vegas Tyrants"
+		},
+		{
+			"short": "MAU",
+			"name": "Maui Ancients"
+		},
+		{
+			"short": "MCV",
+			"name": "Mexico City Venom"
+		},
+		{
+			"short": "MIA",
+			"name": "Miami Caiman"
+		},
+		{
+			"short": "MTL",
+			"name": "Montreal Stags"
+		},
+		{
+			"short": "NEV",
+			"name": "New England Valhalla"
+		},
+		{
+			"short": "NOC",
+			"name": "New Orleans Curse"
+		},
+		{
+			"short": "NSH",
+			"name": "Nashville Legends"
+		},
+		{
+			"short": "NYI",
+			"name": "New York Insomnia"
+		},
+		{
+			"short": "OTT",
+			"name": "Ottawa Savage"
+		},
+		{
+			"short": "PHI",
+			"name": "Philadelphia Plague"
+		},
+		{
+			"short": "PHX",
+			"name": "Phoenix Thunders"
+		},
+		{
+			"short": "PIT",
+			"name": "Pittsburgh Phantoms"
+		},
+		{
+			"short": "POR",
+			"name": "Portland Journey"
+		},
+		{
+			"short": "SAR",
+			"name": "San Antonio Revenge"
+		},
+		{
+			"short": "SDA",
+			"name": "San Diego Armada"
+		},
+		{
+			"short": "SEA",
+			"name": "Seattle Swarm"
+		},
+		{
+			"short": "SFC",
+			"name": "San Francisco Cyborgs"
+		},
+		{
+			"short": "SFK",
+			"name": "Santa Fe Kings"
+		},
+		{
+			"short": "UTA",
+			"name": "Utah Craze"
+		},
+		{
+			"short": "WAR",
+			"name": "Washington Rebellion"
+		}
+	],
+	"alts": [
+		{
+			"away": "DET",
+			"home": "BAL",
+			"alt": "home"
+		},
+		{
+			"away": "SEA",
+			"home": "LAG",
+			"alt": "home"
+		},
+		{
+			"away": "CHI",
+			"home": "DET",
+			"alt": "home"
+		},
+		{
+			"away": "NEV",
+			"home": "DET",
+			"alt": "home"
+		},
+		{
+			"away": "LAG",
+			"home": "SDA",
+			"alt": "home"
+		},
+		{
+			"away": "LAG",
+			"home": "POR",
+			"alt": "home"
+		},
+		{
+			"away": "KCC",
+			"home": "SAR",
+			"alt": "home"
+		},
+		{
+			"away": "POR",
+			"home": "DET",
+			"alt": "home"
+		},
+		{
+			"away": "CAR",
+			"home": "DAL",
+			"alt": "home"
+		},
+		{
+			"away": "NSH",
+			"home": "PIT",
+			"alt": "home"
+		},
+		{
+			"away": "WAR",
+			"home": "BAL",
+			"alt": "away"
+		},
+		{
+			"away": "MTL",
+			"home": "NSH",
+			"alt": "away"
+		},
+		{
+			"away": "NEV",
+			"home": "CAR",
+			"alt": "away"
+		},
+		{
+			"away": "PHX",
+			"home": "DAL",
+			"alt": "away"
+		},
+		{
+			"away": "LAG",
+			"home": "MAU",
+			"alt": "away"
+		},
+		{
+			"away": "ATL",
+			"home": "DET",
+			"alt": "away"
+		},
+		{
+			"away": "MCV",
+			"home": "SAR",
+			"alt": "away"
+		},
+		{
+			"away": "ALT",
+			"home": "DAL",
+			"alt": "away"
+		}
+	]
+}
