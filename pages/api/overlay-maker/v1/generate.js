@@ -104,7 +104,7 @@ module.exports = async (req, res) => {
       return res.status(500).json({
         ok: false,
         message:
-          "Something went wrong while trying to generate the image; contact Modmail on Discord",
+          "Something went wrong while trying to generate the image; contact @UR Mailbox#2829 on Discord",
       });
     });
 };
