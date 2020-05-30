@@ -219,6 +219,11 @@
 			"away": "ALT",
 			"home": "DAL",
 			"alt": "away"
+		},
+		{
+			"away": "LAG",
+			"home": "NSH",
+			"alt": "away"
 		}
 	]
 }
