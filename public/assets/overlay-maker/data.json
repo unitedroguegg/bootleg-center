@@ -157,6 +157,11 @@
 		},
 		{
 			"away": "POR",
+			"home": "LAG",
+			"alt": "home"
+		},
+		{
+			"away": "POR",
 			"home": "DET",
 			"alt": "home"
 		},
