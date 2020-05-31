@@ -69,7 +69,7 @@ export default function Home({ teams }) {
             </label>
             <select name="home" id="home" required>
               {teams.map((team) => (
-                <option value={team.short}>
+                <option key={`${team.short}_home`} value={team.short}>
                   {team.short} - {team.name}
                 </option>
               ))}
@@ -81,7 +81,7 @@ export default function Home({ teams }) {
             </label>
             <select name="away" id="away" required>
               {teams.map((team) => (
-                <option value={team.short}>
+                <option key={`${team.short}_away`} value={team.short}>
                   {team.short} - {team.name}
                 </option>
               ))}

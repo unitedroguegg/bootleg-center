@@ -5,7 +5,7 @@ module.exports = async (req, res) => {
   const BASE_PATH = `http://${req.headers.host}/assets/overlay-maker`;
   const HOME_DIR = `${BASE_PATH}/home`;
   const AWAY_DIR = `${BASE_PATH}/away`;
-  const ALT_DIR = `${BASE_PATH}/alt`;
+  const ALT_DIR = `${BASE_PATH}/alternative`;
 
   let data = JSON.parse(
     await request.get(`${BASE_PATH}/data.json`).catch((err) => {
@@ -60,9 +60,9 @@ module.exports = async (req, res) => {
   for (let alt of data.alts) {
     if (homeTeam === alt.home && awayTeam === alt.away) {
       if (alt.alt === "away") {
-        away = `${ALT_DIR}/${awayTeam}.png`;
+        away = `${ALT_DIR}/${awayTeam}_${alt.alt}.png`;
       } else if (alt.alt === "home") {
-        home = `${ALT_DIR}/${homeTeam}.png`;
+        home = `${ALT_DIR}/${homeTeam}_${alt.alt}.png`;
       }
     }
   }

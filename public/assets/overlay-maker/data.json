@@ -161,11 +161,6 @@
 			"alt": "home"
 		},
 		{
-			"away": "KCC",
-			"home": "SAR",
-			"alt": "home"
-		},
-		{
 			"away": "POR",
 			"home": "DET",
 			"alt": "home"
@@ -179,6 +174,11 @@
 			"away": "NSH",
 			"home": "PIT",
 			"alt": "home"
+		},
+		{
+			"away": "KCC",
+			"home": "SAR",
+			"alt": "away"
 		},
 		{
 			"away": "WAR",
