@@ -146,11 +146,6 @@
 			"alt": "home"
 		},
 		{
-			"away": "NEV",
-			"home": "DET",
-			"alt": "home"
-		},
-		{
 			"away": "LAG",
 			"home": "SDA",
 			"alt": "home"
@@ -188,6 +183,11 @@
 		{
 			"away": "NEV",
 			"home": "CAR",
+			"alt": "away"
+		},
+		{
+			"away": "NEV",
+			"home": "DET",
 			"alt": "away"
 		},
 		{
