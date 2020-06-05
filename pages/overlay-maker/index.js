@@ -60,7 +60,9 @@ export default function Home({ teams }) {
               <a href="/assets/overlay-maker/game_bars.zip">
                 using the images in this file
               </a>
-              .
+              . For overlays to fit correctly, you must set Interface Scale to
+              80% and Display Scale to 100% under Interface options in Rocket
+              League.
             </p>
           </div>
           <div className="form-group">
