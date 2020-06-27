@@ -56,13 +56,15 @@ export default function Home({ teams }) {
               <a href="/assets/overlay-maker/bo5_lights.zip">
                 using the images in this file
               </a>
-              . Lastly, indicate the current game number{" "}
+              , and the current game number{" "}
               <a href="/assets/overlay-maker/game_bars.zip">
                 using the images in this file
               </a>
-              . For overlays to fit correctly, you must set Interface Scale to
-              80% and Display Scale to 100% under Interface options in Rocket
-              League.
+              . For the overlay to fit correctly, you must set Interface Scale
+              to 80% and Display Scale to 100% under Interface options in Rocket
+              League. And for the overlay to correctly match in-game scores,
+              when making the lobby, set the top team to Away and the bottom
+              team to Home.
             </p>
           </div>
           <div className="form-group">
