@@ -53,14 +53,12 @@ export default function Home({ teams }) {
               generate. You can then either save the image generated and import
               it as an image, or import the URL after clicking generate as a
               browser source. Next, indicate game wins{" "}
-              <a href="/assets/overlay-maker/bo5_lights.zip">
+              <a className="disabled" href="#">
                 using the images in this file
-              </a>
-              , and the current game number{" "}
-              <a href="/assets/overlay-maker/game_bars.zip">
+              </a> (unavailable till replaced), and the current game number{" "}
+              <a className="disabled" href="#">
                 using the images in this file
-              </a>
-              . For the overlay to fit correctly, you must set Interface Scale
+              </a> (unavailable till replaced). For the overlay to fit correctly, you must set Interface Scale
               to 80% and Display Scale to 100% under Interface options in Rocket
               League. And for the overlay to correctly match in-game scores,
               when making the lobby, set the top team to Away and the bottom
@@ -92,7 +90,10 @@ export default function Home({ teams }) {
             </select>
           </div>
           <div className="form-group">
-            <button type="submit">Generate &rarr;</button>
+            <button type="submit" disabled>Generate &rarr;</button>
+            <p>
+              Per request of gyldengiraffe, overlay maker will remain unavailable till the previous graphics created by her are replaced.
+            </p>
           </div>
         </form>
       </main>

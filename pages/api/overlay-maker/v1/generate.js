@@ -2,6 +2,12 @@ const sharp = require("sharp");
 const request = require("request-promise").defaults({ encoding: null });
 
 module.exports = async (req, res) => {
+  return res.status(400).json({
+    ok: false,
+    message:
+      "Per request of gyldengiraffe, overlay maker will remain unavailable till the previous graphics created by her are replaced."
+  });
+
   const BASE_PATH = `http://${req.headers.host}/assets/overlay-maker`;
   const HOME_DIR = `${BASE_PATH}/home`;
   const AWAY_DIR = `${BASE_PATH}/away`;
